@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/dargah_noorullah_shah_nasarpur.html" }
+  ]
+}
