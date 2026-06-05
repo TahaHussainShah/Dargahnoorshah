@@ -1,4 +1,5 @@
 {
+  "version": 2,
   "headers": [
     {
       "source": "/sitemap.xml",
@@ -10,14 +11,18 @@
       ]
     }
   ],
-  "rewrites": [
+  "routes": [
     {
-      "source": "/sitemap.xml",
-      "destination": "/sitemap.xml"
+      "src": "/robots.txt",
+      "dest": "/robots.txt"
     },
     {
-      "source": "/(.*)",
-      "destination": "/dargah_noorullah_shah_nasarpur.html"
+      "src": "/sitemap.xml",
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dargah_noorullah_shah_nasarpur.html"
     }
   ]
 }
